@@ -27696,7 +27696,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 109.22) (xy 375.92 104.14)
+			(xy 379.73 109.22) (xy 379.73 104.14)
 		)
 		(stroke
 			(width 0)
@@ -28796,7 +28796,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 104.14) (xy 400.05 104.14)
+			(xy 379.73 104.14) (xy 400.05 104.14)
 		)
 		(stroke
 			(width 0)
@@ -28896,7 +28896,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 109.22) (xy 375.92 109.22)
+			(xy 356.87 109.22) (xy 379.73 109.22)
 		)
 		(stroke
 			(width 0)
@@ -32254,7 +32254,7 @@
 		)
 		(uuid "05596b6d-c709-40e1-b457-809f7d92cf4c")
 	)
-	(hierarchical_label "_HLDA"
+	(hierarchical_label "HLDA"
 		(shape bidirectional)
 		(at 83.82 261.62 0)
 		(effects
@@ -32283,7 +32283,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "07f0d0b8-0c21-48e6-a721-bd8d288d9403")
 	)
@@ -32298,7 +32298,7 @@
 		)
 		(uuid "07f41fae-848f-44f8-99f9-5cc7617a608e")
 	)
-	(hierarchical_label "D4"
+	(hierarchical_label "DB4"
 		(shape bidirectional)
 		(at 203.2 233.68 180)
 		(effects
@@ -32371,7 +32371,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "0caf597a-4133-411e-9e86-9dd6b7e34b51")
 	)
@@ -32419,7 +32419,7 @@
 		)
 		(uuid "1598b994-70c4-46d7-8744-f54278ba8dd5")
 	)
-	(hierarchical_label "A0"
+	(hierarchical_label "AB0"
 		(shape bidirectional)
 		(at 215.9 266.7 0)
 		(effects
@@ -32448,7 +32448,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "170463d8-454c-468b-b82a-aa4345380888")
 	)
@@ -32518,7 +32518,7 @@
 		)
 		(uuid "1949a6d7-02b4-4f22-ae92-e68a950cbd9f")
 	)
-	(hierarchical_label "A10"
+	(hierarchical_label "AB10"
 		(shape bidirectional)
 		(at 203.2 228.6 180)
 		(effects
@@ -32563,7 +32563,7 @@
 		)
 		(uuid "1b552c1f-9bc7-4aff-a74d-01f08632717e")
 	)
-	(hierarchical_label "D6"
+	(hierarchical_label "DB6"
 		(shape bidirectional)
 		(at 203.2 238.76 180)
 		(effects
@@ -32618,7 +32618,7 @@
 		)
 		(uuid "21694c12-fc12-4bba-b286-c5526f1392e1")
 	)
-	(hierarchical_label "_HLDA"
+	(hierarchical_label "HLDA"
 		(shape bidirectional)
 		(at 215.9 276.86 0)
 		(effects
@@ -32673,7 +32673,7 @@
 		)
 		(uuid "247fdbe4-51bd-468f-a674-4e6dfe50a001")
 	)
-	(hierarchical_label "D5"
+	(hierarchical_label "DB5"
 		(shape bidirectional)
 		(at 203.2 236.22 180)
 		(effects
@@ -32823,7 +32823,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "2fcdad49-24c7-4abe-8c62-8e242824073a")
 	)
@@ -32911,7 +32911,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "3460138f-726e-4275-86c9-5ba272e26513")
 	)
@@ -33047,7 +33047,7 @@
 		)
 		(uuid "3babc1e9-097c-407b-8692-25cbb148bb19")
 	)
-	(hierarchical_label "A13"
+	(hierarchical_label "AB13"
 		(shape bidirectional)
 		(at 215.9 233.68 0)
 		(effects
@@ -33219,7 +33219,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "4f83b179-3b28-4e85-89f9-5af84576d3e4")
 	)
@@ -33322,7 +33322,7 @@
 		)
 		(uuid "562917ed-0fc4-4b04-81cf-bda588781129")
 	)
-	(hierarchical_label "D0"
+	(hierarchical_label "DB0"
 		(shape bidirectional)
 		(at 203.2 251.46 180)
 		(effects
@@ -33377,7 +33377,7 @@
 		)
 		(uuid "593386c1-5442-4991-aa98-f56821fdba41")
 	)
-	(hierarchical_label "A14"
+	(hierarchical_label "AB14"
 		(shape bidirectional)
 		(at 215.9 231.14 0)
 		(effects
@@ -33399,7 +33399,7 @@
 		)
 		(uuid "5a927dff-1f5a-4b62-8ce2-ddb77623911a")
 	)
-	(hierarchical_label "A9"
+	(hierarchical_label "AB9"
 		(shape bidirectional)
 		(at 215.9 241.3 0)
 		(effects
@@ -33454,7 +33454,7 @@
 		)
 		(uuid "5f49547a-850c-4313-b2ed-5509be0495d1")
 	)
-	(hierarchical_label "A5"
+	(hierarchical_label "AB5"
 		(shape bidirectional)
 		(at 215.9 251.46 0)
 		(effects
@@ -33780,11 +33780,11 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "71122866-3a32-4e7f-8878-56737999b4bb")
 	)
-	(hierarchical_label "D7"
+	(hierarchical_label "DB7"
 		(shape bidirectional)
 		(at 203.2 241.3 180)
 		(effects
@@ -33802,7 +33802,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "7175cf75-73f4-4b38-b5e8-d1328a3acf84")
 	)
@@ -33905,7 +33905,7 @@
 		)
 		(uuid "7784e0c1-63ce-46fd-9bdd-dce460901b51")
 	)
-	(hierarchical_label "A4"
+	(hierarchical_label "AB4"
 		(shape bidirectional)
 		(at 215.9 254 0)
 		(effects
@@ -34015,7 +34015,7 @@
 		)
 		(uuid "816f873d-3b6e-4a7a-a2cc-ed0f61329b7a")
 	)
-	(hierarchical_label "A1"
+	(hierarchical_label "AB1"
 		(shape bidirectional)
 		(at 215.9 264.16 0)
 		(effects
@@ -34033,7 +34033,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "81cb5884-40d5-4d60-9ed2-885d3e605d4e")
 	)
@@ -34287,7 +34287,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "8f819d22-b35e-4acd-87ef-5a9cc9a22edf")
 	)
@@ -34379,7 +34379,7 @@
 		)
 		(uuid "93290093-92e7-464d-b2c2-247d6f59b1ea")
 	)
-	(hierarchical_label "D1"
+	(hierarchical_label "DB1"
 		(shape bidirectional)
 		(at 203.2 248.92 180)
 		(effects
@@ -34401,7 +34401,7 @@
 		)
 		(uuid "94bf8a75-fc91-4ca2-9fe6-ed8f52a84348")
 	)
-	(hierarchical_label "A15"
+	(hierarchical_label "AB15"
 		(shape bidirectional)
 		(at 215.9 238.76 0)
 		(effects
@@ -34430,7 +34430,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "98773ff3-bc20-44a2-894b-499b1585a0a1")
 	)
@@ -34529,7 +34529,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "a148ead8-68e3-4452-a22f-ed2d65930840")
 	)
@@ -34573,7 +34573,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "a3252df9-05d4-480c-8b18-87e84601f05c")
 	)
@@ -34632,7 +34632,7 @@
 		)
 		(uuid "a8cdabaa-2845-4c19-a854-c871f0c63bd7")
 	)
-	(hierarchical_label "A7"
+	(hierarchical_label "AB7"
 		(shape bidirectional)
 		(at 215.9 246.38 0)
 		(effects
@@ -34694,7 +34694,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "ad21f7b5-8439-45fb-9312-cb48e5f6a72d")
 	)
@@ -34727,7 +34727,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "af2e8bb6-ea21-46af-96e4-42128096caf9")
 	)
@@ -34775,7 +34775,7 @@
 		)
 		(uuid "b5b63a29-ed62-4356-9bcf-450b0fcbf210")
 	)
-	(hierarchical_label "A2"
+	(hierarchical_label "AB2"
 		(shape bidirectional)
 		(at 215.9 261.62 0)
 		(effects
@@ -34907,7 +34907,7 @@
 		)
 		(uuid "becc2bd7-df84-43e8-92d4-a898cd27992e")
 	)
-	(hierarchical_label "A3"
+	(hierarchical_label "AB3"
 		(shape bidirectional)
 		(at 215.9 256.54 0)
 		(effects
@@ -34940,7 +34940,7 @@
 		)
 		(uuid "c092f7cd-1adc-476b-ac17-757c16c1ed3e")
 	)
-	(hierarchical_label "A6"
+	(hierarchical_label "AB6"
 		(shape bidirectional)
 		(at 215.9 248.92 0)
 		(effects
@@ -35090,7 +35090,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "cf29e88a-01a2-4aea-b508-07c707893ce5")
 	)
@@ -35116,7 +35116,7 @@
 		)
 		(uuid "d02f8264-82fd-4b03-b2e2-54ab23799a09")
 	)
-	(hierarchical_label "A11"
+	(hierarchical_label "AB11"
 		(shape bidirectional)
 		(at 215.9 228.6 0)
 		(effects
@@ -35145,7 +35145,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "d1d29db2-9386-46f5-b8fa-73bee7588187")
 	)
@@ -35171,7 +35171,7 @@
 		)
 		(uuid "d1e44ac7-f0cf-4a71-a4b5-fb072496160f")
 	)
-	(hierarchical_label "A8"
+	(hierarchical_label "AB8"
 		(shape bidirectional)
 		(at 215.9 243.84 0)
 		(effects
@@ -35215,7 +35215,7 @@
 		)
 		(uuid "d3e2afb0-95ce-4412-8869-43721e3bdd3d")
 	)
-	(hierarchical_label "D3"
+	(hierarchical_label "DB3"
 		(shape bidirectional)
 		(at 203.2 243.84 180)
 		(effects
@@ -35442,7 +35442,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "e1bc8192-4f47-4d05-a306-6cff22971b11")
 	)
@@ -35468,7 +35468,7 @@
 		)
 		(uuid "e2d09676-4794-41b0-9ce4-12d6496d1d92")
 	)
-	(hierarchical_label "D2"
+	(hierarchical_label "DB2"
 		(shape bidirectional)
 		(at 203.2 246.38 180)
 		(effects
@@ -35530,7 +35530,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "e8351805-cb5f-45b1-8c5e-17b4f2a56949")
 	)
@@ -35688,7 +35688,7 @@
 		)
 		(uuid "faeb84b3-869f-4f2d-8749-8ff239f7319d")
 	)
-	(hierarchical_label "A12"
+	(hierarchical_label "AB12"
 		(shape bidirectional)
 		(at 215.9 236.22 0)
 		(effects
