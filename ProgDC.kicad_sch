@@ -6,10 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "Программируемый дешифратор Пальмира")
-		(date "2025-04-10")
+		(date "2026-03-16")
+		(rev "1.5")
+		(comment 1 "1.5")
 		(comment 2 "Цветков Д.С.")
-		(comment 3 "1")
-		(comment 4 "2")
 		(comment 5 "3")
 		(comment 6 "4")
 		(comment 7 "5")
@@ -25297,14 +25297,14 @@
 		)
 		(uuid "e01885d5-6083-4ab0-8f78-d2006435b79a")
 	)
-	(text_box "Программируемый дешифратор Пальмира\n                               Ver 1.4\n"
+	(text_box "Программируемый дешифратор Пальмира\n                               Ver 1.5\n"
 		(exclude_from_sim no)
 		(at 274.505 46.276 0)
 		(size 108.85 16.669)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 			(color 0 0 0 1)
 		)
 		(fill
@@ -31839,7 +31839,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 180.34 205.74 0)
+		(at 189.23 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32046,7 +32046,7 @@
 		)
 		(uuid "611345db-6caa-4de9-adc1-35883b34443e")
 	)
-	(hierarchical_label "~{CA00_PPI3}"
+	(hierarchical_label "~{C500_VDP}"
 		(shape output)
 		(at 394.97 101.6 180)
 		(effects
@@ -32707,7 +32707,7 @@
 		)
 		(uuid "85a67e37-3f75-41df-90ba-36686044dd8e")
 	)
-	(hierarchical_label "~{CA00_PPI3}"
+	(hierarchical_label "~{C500_VDP}"
 		(shape output)
 		(at 308.61 172.72 0)
 		(effects
@@ -33908,7 +33908,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 180.34 200.66 0)
+		(at 189.23 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -34334,6 +34334,17 @@
 			(justify right)
 		)
 		(uuid "fd185198-5021-44e7-86c8-c5a3699c1f4f")
+	)
+	(hierarchical_label "~{A_FF}"
+		(shape bidirectional)
+		(at 77.47 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe8fe884-737f-4c4b-9c3a-410f529b9f7a")
 	)
 	(hierarchical_label "D6"
 		(shape input)
