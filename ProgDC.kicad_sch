@@ -25427,6 +25427,12 @@
 		(uuid "3cff148a-6628-4260-b549-9bde21bb761d")
 	)
 	(junction
+		(at 328.93 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ca4728-099e-42e1-815f-53bb265c9e83")
+	)
+	(junction
 		(at 199.39 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25539,12 +25545,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae2aaedb-a808-4d12-9c53-2d661b478e64")
-	)
-	(junction
-		(at 328.93 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b070b808-0377-43dc-86fe-e91ad3d82f59")
 	)
 	(junction
 		(at 350.52 116.84)
@@ -25951,16 +25951,6 @@
 			(type default)
 		)
 		(uuid "0da13a19-ea06-459b-82b9-b0ae8ec23157")
-	)
-	(wire
-		(pts
-			(xy 330.2 172.72) (xy 330.2 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ebc92f7-ed75-403f-85d6-dd3d82857a95")
 	)
 	(wire
 		(pts
@@ -28194,7 +28184,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 171.45) (xy 325.12 168.91)
+			(xy 325.12 171.45) (xy 325.12 167.64)
 		)
 		(stroke
 			(width 0)
@@ -29154,7 +29144,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 157.48) (xy 328.93 167.64)
+			(xy 328.93 157.48) (xy 328.93 172.72)
 		)
 		(stroke
 			(width 0)
@@ -29564,16 +29554,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 168.91) (xy 325.12 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1de1608-a474-4031-8d87-1bd1fca01345")
-	)
-	(wire
-		(pts
 			(xy 22.86 115.57) (xy 25.4 115.57)
 		)
 		(stroke
@@ -29724,7 +29704,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 167.64) (xy 330.2 167.64)
+			(xy 325.12 167.64) (xy 330.2 167.64)
 		)
 		(stroke
 			(width 0)
@@ -30291,6 +30271,16 @@
 			(type default)
 		)
 		(uuid "e76cd149-a7bc-431f-b651-dca353b977bc")
+	)
+	(wire
+		(pts
+			(xy 328.93 172.72) (xy 330.2 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7831255-c500-4893-b748-4a6b1f380266")
 	)
 	(wire
 		(pts
@@ -38742,7 +38732,7 @@
 	)
 	(symbol
 		(lib_id "Pico-altium-import:root_2_R0125_*")
-		(at 328.93 167.64 270)
+		(at 328.93 172.72 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38751,7 +38741,7 @@
 		(dnp no)
 		(uuid "69b9a4ad-2ef7-4154-8de7-8f149c85c888")
 		(property "Reference" "R15"
-			(at 325.12 174.244 0)
+			(at 325.12 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38759,7 +38749,7 @@
 			)
 		)
 		(property "Value" "R0125"
-			(at 331.47 177.546 0)
+			(at 331.47 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38768,7 +38758,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 328.93 167.64 0)
+			(at 328.93 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38777,7 +38767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 167.64 0)
+			(at 328.93 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38786,7 +38776,7 @@
 			)
 		)
 		(property "Description" "R0125"
-			(at 328.93 167.64 0)
+			(at 328.93 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38795,7 +38785,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1K"
-			(at 331.47 173.482 0)
+			(at 331.47 178.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45159,7 +45149,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 328.93 180.34 0)
+		(at 328.93 185.42 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -45168,7 +45158,7 @@
 		(dnp no)
 		(uuid "e9755ca0-5239-4aaa-a2ac-9e88762111c0")
 		(property "Reference" "#PWR07"
-			(at 328.93 176.53 0)
+			(at 328.93 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45177,7 +45167,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 328.676 184.404 0)
+			(at 328.676 189.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45185,7 +45175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 180.34 0)
+			(at 328.93 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45194,7 +45184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 180.34 0)
+			(at 328.93 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45203,7 +45193,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 328.93 180.34 0)
+			(at 328.93 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
