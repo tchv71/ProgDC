@@ -25427,12 +25427,6 @@
 		(uuid "3cff148a-6628-4260-b549-9bde21bb761d")
 	)
 	(junction
-		(at 328.93 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41ca4728-099e-42e1-815f-53bb265c9e83")
-	)
-	(junction
 		(at 199.39 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25481,12 +25475,6 @@
 		(uuid "5f729733-c1ec-46c5-b54d-dcd94f9b4cf1")
 	)
 	(junction
-		(at 344.17 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6206f637-0ede-4e56-b6a6-3efd5962f0ed")
-	)
-	(junction
 		(at 148.59 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25497,6 +25485,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f482673-4ac3-442e-820b-3df102782625")
+	)
+	(junction
+		(at 344.17 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "809d2273-485a-4d13-a23c-6eda1bae2f92")
 	)
 	(junction
 		(at 199.39 140.97)
@@ -25625,12 +25619,6 @@
 		(uuid "e52ccf8c-f961-44d2-b5c8-64891c33ecf6")
 	)
 	(junction
-		(at 328.93 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e93faf07-1c36-40fe-adae-eb6c2c572c28")
-	)
-	(junction
 		(at 90.17 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25649,6 +25637,10 @@
 		(uuid "fbaae378-2ecd-412b-a575-d9ad5c201b82")
 	)
 	(no_connect
+		(at 29.21 52.07)
+		(uuid "0490324d-b6e9-4340-a9ba-66c736fe2299")
+	)
+	(no_connect
 		(at 106.68 138.43)
 		(uuid "055096ee-ef47-4cfb-8045-a67b1100ba76")
 	)
@@ -25661,6 +25653,10 @@
 		(uuid "339c6619-1fa4-4902-9ae6-44d70308b50d")
 	)
 	(no_connect
+		(at 29.21 34.29)
+		(uuid "4e30da6b-3a46-4740-84bd-3401192cadad")
+	)
+	(no_connect
 		(at 71.12 195.58)
 		(uuid "66d29b93-95cb-4579-a9a2-4d201a957d7b")
 	)
@@ -25671,6 +25667,10 @@
 	(no_connect
 		(at 111.76 207.01)
 		(uuid "765a6f6a-9191-4a0c-8921-9cab85dc91b2")
+	)
+	(no_connect
+		(at 41.91 34.29)
+		(uuid "8e1fa4bf-c3ee-4e0d-9ab9-e36a0c58d180")
 	)
 	(no_connect
 		(at 68.58 195.58)
@@ -25711,6 +25711,10 @@
 	(no_connect
 		(at 106.68 151.13)
 		(uuid "f89b87d9-62d7-4aaa-9da1-0e4359f5e809")
+	)
+	(no_connect
+		(at 41.91 52.07)
+		(uuid "ff3bc525-43f8-401e-b195-586aae6cafb0")
 	)
 	(wire
 		(pts
@@ -25904,6 +25908,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 170.18) (xy 344.17 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c44144c-cfe7-4a0a-9f00-ed50026b0211")
+	)
+	(wire
+		(pts
 			(xy 379.73 109.22) (xy 379.73 104.14)
 		)
 		(stroke
@@ -25951,6 +25965,16 @@
 			(type default)
 		)
 		(uuid "0da13a19-ea06-459b-82b9-b0ae8ec23157")
+	)
+	(wire
+		(pts
+			(xy 344.17 170.18) (xy 344.17 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e13be0b-46bb-486a-9781-746ba8efd030")
 	)
 	(wire
 		(pts
@@ -26244,16 +26268,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 162.56) (xy 347.98 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "205b30b3-3a4f-4f9f-a0b7-35c209c8c512")
-	)
-	(wire
-		(pts
 			(xy 189.23 31.75) (xy 189.23 38.1)
 		)
 		(stroke
@@ -26384,6 +26398,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 176.53) (xy 344.17 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2889f378-e652-4719-885d-ce3e10735764")
+	)
+	(wire
+		(pts
 			(xy 148.59 148.59) (xy 148.59 151.13)
 		)
 		(stroke
@@ -26401,16 +26425,6 @@
 			(type default)
 		)
 		(uuid "2ba5f28c-76f9-4498-b0b7-fabfb9af0248")
-	)
-	(wire
-		(pts
-			(xy 360.68 168.91) (xy 360.68 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bb2d6a4-30fa-40c7-bbf8-c9ed8d3fed8f")
 	)
 	(wire
 		(pts
@@ -26634,6 +26648,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 172.72) (xy 330.2 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354e681e-1ff5-406f-9d79-dccb410d528b")
+	)
+	(wire
+		(pts
 			(xy 328.93 127) (xy 330.2 127)
 		)
 		(stroke
@@ -26824,16 +26848,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 166.37) (xy 344.17 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c0e8a6d-5e62-44b1-adb9-a4c639764d54")
-	)
-	(wire
-		(pts
 			(xy 201.93 36.83) (xy 201.93 50.8)
 		)
 		(stroke
@@ -26844,7 +26858,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 185.42) (xy 345.44 182.88)
+			(xy 345.44 166.37) (xy 345.44 185.42)
 		)
 		(stroke
 			(width 0)
@@ -26944,7 +26958,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 146.05) (xy 320.04 148.59)
+			(xy 325.12 121.92) (xy 325.12 148.59)
 		)
 		(stroke
 			(width 0)
@@ -27384,16 +27398,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 88.9) (xy 378.46 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "583fe89a-e4a2-46c1-95f5-1d765e0cfc77")
-	)
-	(wire
-		(pts
 			(xy 323.85 105.41) (xy 323.85 124.46)
 		)
 		(stroke
@@ -27451,16 +27455,6 @@
 			(type default)
 		)
 		(uuid "5c849174-a729-4844-a159-2723ee15b0a9")
-	)
-	(wire
-		(pts
-			(xy 327.66 157.48) (xy 328.93 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d32c38e-70df-40cc-b4f0-86b4ddec5c60")
 	)
 	(wire
 		(pts
@@ -27924,16 +27918,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 181.61) (xy 321.31 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75225982-a9b5-4a20-b8fe-6bce48b8a2d7")
-	)
-	(wire
-		(pts
 			(xy 189.23 175.26) (xy 203.2 175.26)
 		)
 		(stroke
@@ -28184,16 +28168,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 171.45) (xy 325.12 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "825dabdb-b03c-421e-a21c-5e04fc8e100f")
-	)
-	(wire
-		(pts
 			(xy 260.35 147.32) (xy 264.16 147.32)
 		)
 		(stroke
@@ -28254,7 +28228,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 171.45) (xy 346.71 200.66)
+			(xy 346.71 171.45) (xy 346.71 187.96)
 		)
 		(stroke
 			(width 0)
@@ -28381,16 +28355,6 @@
 			(type default)
 		)
 		(uuid "901344cc-c947-4579-8fcb-e324300b9d97")
-	)
-	(wire
-		(pts
-			(xy 344.17 176.53) (xy 344.17 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "908113a9-71be-4d48-819f-ced76fb36e1e")
 	)
 	(wire
 		(pts
@@ -28534,6 +28498,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 187.96) (xy 347.98 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f797be-d685-412f-b0c5-0c8f68227c76")
+	)
+	(wire
+		(pts
 			(xy 394.97 68.58) (xy 400.05 68.58)
 		)
 		(stroke
@@ -28544,7 +28518,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 157.48) (xy 320.04 157.48)
+			(xy 307.34 157.48) (xy 327.66 157.48)
 		)
 		(stroke
 			(width 0)
@@ -28581,16 +28555,6 @@
 			(type default)
 		)
 		(uuid "9a3359af-4905-4875-8a95-e45543d0c2cc")
-	)
-	(wire
-		(pts
-			(xy 347.98 193.04) (xy 360.68 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad4f7a9-dbe3-44b0-b1b8-4519dc9dd0f1")
 	)
 	(wire
 		(pts
@@ -28761,16 +28725,6 @@
 			(type default)
 		)
 		(uuid "a130f385-47cb-407c-b588-c00004965579")
-	)
-	(wire
-		(pts
-			(xy 344.17 170.18) (xy 342.9 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a25cb6e7-6c47-4f91-9707-d35b16afa2e4")
 	)
 	(wire
 		(pts
@@ -29014,16 +28968,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 182.88) (xy 347.98 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a94fe610-0534-41f1-af33-76d2bbed43a9")
-	)
-	(wire
-		(pts
 			(xy 132.08 166.37) (xy 132.08 165.1)
 		)
 		(stroke
@@ -29144,13 +29088,13 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 157.48) (xy 328.93 172.72)
+			(xy 347.98 182.88) (xy 347.98 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad98ae2c-98cb-477e-98cb-ca4e369d2260")
+		(uuid "af3cde2c-1b12-485f-be40-00815af6b8ff")
 	)
 	(wire
 		(pts
@@ -29184,7 +29128,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 166.37) (xy 344.17 166.37)
+			(xy 347.98 166.37) (xy 345.44 166.37)
 		)
 		(stroke
 			(width 0)
@@ -29224,17 +29168,17 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 200.66) (xy 347.98 200.66)
+			(xy 359.41 158.75) (xy 360.68 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3004bc6-2194-47dd-85f8-34d0cd5c743d")
+		(uuid "b2c0ff11-f5c8-4b77-a8f5-7261e6106df2")
 	)
 	(wire
 		(pts
-			(xy 328.93 148.59) (xy 328.93 157.48)
+			(xy 328.93 148.59) (xy 328.93 167.64)
 		)
 		(stroke
 			(width 0)
@@ -29301,16 +29245,6 @@
 			(type default)
 		)
 		(uuid "b5ec088e-a1fc-44c7-8386-942a9f2c719e")
-	)
-	(wire
-		(pts
-			(xy 360.68 162.56) (xy 347.98 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b64704b6-546e-4175-b659-5567bb1591f1")
 	)
 	(wire
 		(pts
@@ -29384,16 +29318,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 187.96) (xy 347.98 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba3278ac-c88b-4980-a1b9-84ec85a16e2c")
-	)
-	(wire
-		(pts
 			(xy 142.24 175.26) (xy 142.24 165.1)
 		)
 		(stroke
@@ -29421,6 +29345,16 @@
 			(type default)
 		)
 		(uuid "bb77d1d3-a0b8-46c3-b1e5-2a2f5052cc18")
+	)
+	(wire
+		(pts
+			(xy 325.12 148.59) (xy 328.93 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb809252-d15a-4455-a3b0-07a678b85d92")
 	)
 	(wire
 		(pts
@@ -29484,16 +29418,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 146.05) (xy 320.04 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd7534d3-ef60-47bd-b87d-c7d2e497473a")
-	)
-	(wire
-		(pts
 			(xy 207.01 208.28) (xy 207.01 167.64)
 		)
 		(stroke
@@ -29541,16 +29465,6 @@
 			(type default)
 		)
 		(uuid "c101a6c2-2bdc-470b-bb57-f385664ca369")
-	)
-	(wire
-		(pts
-			(xy 378.46 88.9) (xy 400.05 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1461254-39a1-45f1-a2f0-de69ac1e761c")
 	)
 	(wire
 		(pts
@@ -29624,16 +29538,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 148.59) (xy 328.93 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c60281b9-c7a9-4f23-ac19-f530c7a9fb2f")
-	)
-	(wire
-		(pts
 			(xy 201.93 64.77) (xy 204.47 64.77)
 		)
 		(stroke
@@ -29674,13 +29578,13 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 171.45) (xy 325.12 171.45)
+			(xy 360.68 158.75) (xy 360.68 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7cf9f57-d656-47a8-b080-e6730040a03d")
+		(uuid "c8eb7309-4e6a-460b-a72c-79e5be1f507a")
 	)
 	(wire
 		(pts
@@ -29701,16 +29605,6 @@
 			(type default)
 		)
 		(uuid "cb904c16-6776-41e2-9ef2-321b623e83c2")
-	)
-	(wire
-		(pts
-			(xy 325.12 167.64) (xy 330.2 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb9a37f6-a019-414b-b2f3-361b01a565e8")
 	)
 	(wire
 		(pts
@@ -29754,6 +29648,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 157.48) (xy 327.66 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0874b9-63fc-42da-9c0f-cb1695c77f06")
+	)
+	(wire
+		(pts
 			(xy 88.9 106.68) (xy 90.17 106.68)
 		)
 		(stroke
@@ -29771,6 +29675,16 @@
 			(type default)
 		)
 		(uuid "cf8b0c06-16f2-4945-a948-2f4686b9b8ec")
+	)
+	(wire
+		(pts
+			(xy 394.97 88.9) (xy 400.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00f7a97-a022-4a7f-a515-7f44b9de376a")
 	)
 	(wire
 		(pts
@@ -29871,16 +29785,6 @@
 			(type default)
 		)
 		(uuid "d444fbe0-d24a-4bf1-9b39-4dba3a197f3d")
-	)
-	(wire
-		(pts
-			(xy 360.68 193.04) (xy 360.68 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d462a0d4-9008-4736-8300-a9ba25695d2c")
 	)
 	(wire
 		(pts
@@ -30054,16 +29958,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 121.92) (xy 325.12 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dedda57e-f0fa-491b-84f5-62a5b9ab7d86")
-	)
-	(wire
-		(pts
 			(xy 101.6 196.85) (xy 115.57 196.85)
 		)
 		(stroke
@@ -30141,6 +30035,16 @@
 			(type default)
 		)
 		(uuid "e07984d6-2536-4c34-bc7b-4ad45441035d")
+	)
+	(wire
+		(pts
+			(xy 328.93 167.64) (xy 330.2 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f143fa-7262-43f8-800c-bda6d8b9d8b4")
 	)
 	(wire
 		(pts
@@ -30271,16 +30175,6 @@
 			(type default)
 		)
 		(uuid "e76cd149-a7bc-431f-b651-dca353b977bc")
-	)
-	(wire
-		(pts
-			(xy 328.93 172.72) (xy 330.2 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7831255-c500-4893-b748-4a6b1f380266")
 	)
 	(wire
 		(pts
@@ -31398,17 +31292,6 @@
 			(justify right)
 		)
 		(uuid "198aed2b-a957-4f30-95d5-d9919364231c")
-	)
-	(hierarchical_label "C800_VI53_2"
-		(shape input)
-		(at 365.76 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "19a6acd2-704a-4b8a-bed5-7201d8204bdb")
 	)
 	(hierarchical_label "AB12"
 		(shape output)
@@ -33634,13 +33517,13 @@
 		(uuid "aa8c12f2-9cc0-4a45-b20d-bb31d1e75c8a")
 	)
 	(hierarchical_label "~{C800_VI53_2_}"
-		(shape bidirectional)
-		(at 382.27 88.9 0)
+		(shape output)
+		(at 394.97 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ad21f7b5-8439-45fb-9312-cb48e5f6a72d")
 	)
@@ -33876,13 +33759,13 @@
 		(uuid "bf142566-fdf7-4fe6-884e-f64823618de8")
 	)
 	(hierarchical_label "~{C800_VI53_2}"
-		(shape input)
-		(at 347.98 158.75 0)
+		(shape output)
+		(at 359.41 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bf38bb8d-9f59-4a64-8d1c-a97c23f3bee7")
 	)
@@ -34536,7 +34419,7 @@
 		(uuid "ee078ac2-ad47-4d14-975a-ba2e358adc30")
 	)
 	(hierarchical_label "~{CS_DMA_2}"
-		(shape input)
+		(shape output)
 		(at 394.97 83.82 180)
 		(effects
 			(font
@@ -35481,6 +35364,132 @@
 				(path "/b2979edc-ce67-411c-9185-ba5c17732b26"
 					(reference "D12")
 					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_0_133LN1_*_9")
+		(lib_id "Pico-altium-import:root_0_133LN1_*")
+		(at 332.74 185.42 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20ecc58c-ff82-427a-acae-5a01eeea369a")
+		(property "Reference" "D5"
+			(at 339.09 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "133LN1"
+			(at 339.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 332.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt-Trigger INVERTERS"
+			(at 332.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "555ЛН1"
+			(at 339.09 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DESCRIPTION" "Hex Schmitt-Trigger INVERTERS"
+			(at 345.44 177.597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8420a3da-ffd5-4342-823b-c90a732a2662")
+		)
+		(pin "2"
+			(uuid "9febaff4-4dd0-4cb9-85be-5af985f6af0a")
+		)
+		(pin "1"
+			(uuid "24f03e3a-e738-4dfc-bc39-03b36e1bdae0")
+		)
+		(pin "11"
+			(uuid "4397504e-7576-4480-8bc1-c5c3996761c1")
+		)
+		(pin "14"
+			(uuid "38bcc526-bc14-4eb6-a10a-594694faf052")
+		)
+		(pin "9"
+			(uuid "b192a911-0f43-4a69-bb02-86f940636df2")
+		)
+		(pin "6"
+			(uuid "28a9ce14-6a47-40bb-977d-eb4f551b8b2a")
+		)
+		(pin "5"
+			(uuid "6cb960e7-066c-441d-9665-1dc1518a277d")
+		)
+		(pin "8"
+			(uuid "4e69a1b5-8674-472d-af99-81406c127d2a")
+		)
+		(pin "12"
+			(uuid "aca85831-2d87-4fee-ac0d-25f56bbe1aa9")
+		)
+		(pin "10"
+			(uuid "56e3ecd1-d376-4245-94a4-1559d1ec13cf")
+		)
+		(pin "7"
+			(uuid "8f2135a0-97db-4dd8-9c42-6cce39d7e89e")
+		)
+		(pin "3"
+			(uuid "aa4ca4f8-1507-41d7-877f-e2ece62ec506")
+		)
+		(pin "13"
+			(uuid "0da80985-3430-4ce6-9196-c3b3d0527d17")
+		)
+		(instances
+			(project "ProgDC"
+				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
+					(reference "D5")
+					(unit 6)
 				)
 			)
 		)
@@ -36802,93 +36811,6 @@
 				(path "/b2979edc-ce67-411c-9185-ba5c17732b26"
 					(reference "J1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT43")
-		(at 323.85 148.59 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3596d0b6-0d2b-4372-95e8-8c2dde9c8a5b")
-		(property "Reference" "VD6"
-			(at 328.422 146.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 320.04 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp"
-			(at 323.85 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 323.85 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.2A Small Signal Schottky Diode, DO-35"
-			(at 323.85 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 320.04 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Diode"
-			(at 313.385 136.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73bb37da-ebb8-42a0-a16a-b6ac9518dcfe")
-		)
-		(pin "2"
-			(uuid "873c8158-82b7-4ddf-9059-c7372596c066")
-		)
-		(instances
-			(project "ProgDC"
-				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
-					(reference "VD6")
-					(unit 0)
 				)
 			)
 		)
@@ -38731,83 +38653,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Pico-altium-import:root_2_R0125_*")
-		(at 328.93 172.72 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69b9a4ad-2ef7-4154-8de7-8f149c85c888")
-		(property "Reference" "R15"
-			(at 325.12 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R0125"
-			(at 331.47 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 328.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "R0125"
-			(at 328.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1K"
-			(at 331.47 178.562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a78b8242-e447-4ae1-b062-57d9ad0a0c7c")
-		)
-		(pin "1"
-			(uuid "bd80d5ce-05e5-4d51-a07d-492714e99b81")
-		)
-		(instances
-			(project "ProgDC"
-				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 76.2 102.87 0)
 		(unit 1)
@@ -39906,93 +39751,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT43")
-		(at 323.85 157.48 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "771d6636-b378-4618-8c83-852bce0d97d6")
-		(property "Reference" "VD7"
-			(at 320.04 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 320.04 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp"
-			(at 323.85 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
-			(at 323.85 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.2A Small Signal Schottky Diode, DO-35"
-			(at 323.85 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 320.04 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Diode"
-			(at 313.385 145.213 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edd9855a-11e4-4b98-824d-ef39524d2315")
-		)
-		(pin "2"
-			(uuid "b804746e-e3be-418f-b23f-3e170cc78cc1")
-		)
-		(instances
-			(project "ProgDC"
-				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
-					(reference "VD7")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Pico-altium-import:root_0_133LI1_*")
 		(at 356.87 121.92 0)
 		(unit 2)
@@ -40320,7 +40078,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1533ЛП5"
-			(at 336.55 163.83 0)
+			(at 334.01 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41679,130 +41437,6 @@
 			(project ""
 				(path "/b2979edc-ce67-411c-9185-ba5c17732b26"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "root_0_133LN1_*_3")
-		(lib_id "Pico-altium-import:root_0_133LN1_*")
-		(at 332.74 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98d1699b-28a0-4b22-a7cb-0e7a8c98b6a8")
-		(property "Reference" "D22"
-			(at 339.09 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "133LN1"
-			(at 339.09 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 332.74 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Schmitt-Trigger INVERTERS"
-			(at 332.74 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1533ЛН1"
-			(at 339.09 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" "Hex Schmitt-Trigger INVERTERS"
-			(at 345.44 177.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88a634f0-9b92-4009-9ba7-f9fc578a7cea")
-		)
-		(pin "3"
-			(uuid "abe94d23-e5cc-4949-98b3-9190db0f03cc")
-		)
-		(pin "2"
-			(uuid "9b32f650-dd65-427c-a168-22e40887ef7e")
-		)
-		(pin "4"
-			(uuid "f4f16e35-6a93-472a-b538-cca70b5c245e")
-		)
-		(pin "9"
-			(uuid "7e3dd010-4b43-46f4-b092-376aff999b8e")
-		)
-		(pin "5"
-			(uuid "48b2b274-1287-432b-b98d-fc84a08d245a")
-		)
-		(pin "6"
-			(uuid "6450295b-3989-4341-8d07-922fa6cae352")
-		)
-		(pin "10"
-			(uuid "f5ec5257-dbdb-4951-86f5-87362acf066c")
-		)
-		(pin "11"
-			(uuid "87af9e11-4c1a-40e5-a97c-3eb315414d0f")
-		)
-		(pin "8"
-			(uuid "7b624e9d-3f46-4b60-8b46-f8a029f7e4c5")
-		)
-		(pin "14"
-			(uuid "f8d88eba-0c8b-4c31-ab6b-5c457cfee92d")
-		)
-		(pin "7"
-			(uuid "5f471211-c0f4-4556-8352-83176a25a429")
-		)
-		(pin "12"
-			(uuid "a94fa286-2315-46d7-8148-660d2a406531")
-		)
-		(pin "13"
-			(uuid "61d86f05-893a-419b-8e3d-7e0047ae92a2")
-		)
-		(instances
-			(project "ProgDC"
-				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
-					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -43566,138 +43200,6 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_133LN1_*_9")
-		(lib_id "Pico-altium-import:root_0_133LN1_*")
-		(at 365.76 100.33 0)
-		(unit 6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc1e3d06-c967-4454-827f-e884d878102b")
-		(property "Reference" "D5"
-			(at 372.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "133LN1"
-			(at 372.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 365.76 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Schmitt-Trigger INVERTERS"
-			(at 365.76 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "555ЛН1"
-			(at 372.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DESCRIPTION" "Hex Schmitt-Trigger INVERTERS"
-			(at 378.46 92.507 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8420a3da-ffd5-4342-823b-c90a732a2662")
-		)
-		(pin "2"
-			(uuid "9febaff4-4dd0-4cb9-85be-5af985f6af0a")
-		)
-		(pin "1"
-			(uuid "24f03e3a-e738-4dfc-bc39-03b36e1bdae0")
-		)
-		(pin "11"
-			(uuid "4397504e-7576-4480-8bc1-c5c3996761c1")
-		)
-		(pin "14"
-			(uuid "04ec4682-eb68-4561-b5eb-32f319860ccd")
-		)
-		(pin "9"
-			(uuid "b192a911-0f43-4a69-bb02-86f940636df2")
-		)
-		(pin "6"
-			(uuid "28a9ce14-6a47-40bb-977d-eb4f551b8b2a")
-		)
-		(pin "5"
-			(uuid "6cb960e7-066c-441d-9665-1dc1518a277d")
-		)
-		(pin "8"
-			(uuid "4e69a1b5-8674-472d-af99-81406c127d2a")
-		)
-		(pin "12"
-			(uuid "3ad71992-efe9-4119-864a-f728ae1d7c6a")
-		)
-		(pin "10"
-			(uuid "56e3ecd1-d376-4245-94a4-1559d1ec13cf")
-		)
-		(pin "7"
-			(uuid "363080b4-db2b-478d-8615-765b6b4a6220")
-		)
-		(pin "3"
-			(uuid "aa4ca4f8-1507-41d7-877f-e2ece62ec506")
-		)
-		(pin "13"
-			(uuid "c2342662-8728-4894-b67a-ab5a6dac03ac")
-		)
-		(instances
-			(project ""
-				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
-					(reference "D5")
-					(unit 6)
-				)
-			)
-			(project ""
-				(path "/b2979edc-ce67-411c-9185-ba5c17732b26"
-					(reference "D5")
-					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Pico-altium-import:root_0_1533IR22_*")
 		(at 254 107.95 0)
 		(unit 0)
@@ -44394,6 +43896,131 @@
 		)
 	)
 	(symbol
+		(lib_name "root_0_133LN1_*_3")
+		(lib_id "Pico-altium-import:root_0_133LN1_*")
+		(at 29.21 52.07 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d406cae4-5244-4d40-86e2-da2cf52fd07e")
+		(property "Reference" "D22"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133LN1"
+			(at 35.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 29.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt-Trigger INVERTERS"
+			(at 29.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1533ЛН1"
+			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DESCRIPTION" "Hex Schmitt-Trigger INVERTERS"
+			(at 41.91 44.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27f2b78e-196e-4d1a-aa60-c74773c67f79")
+		)
+		(pin "3"
+			(uuid "abe94d23-e5cc-4949-98b3-9190db0f03cd")
+		)
+		(pin "2"
+			(uuid "59690f43-41bb-4393-8b8b-277ee2e969aa")
+		)
+		(pin "4"
+			(uuid "f4f16e35-6a93-472a-b538-cca70b5c245f")
+		)
+		(pin "9"
+			(uuid "991ca280-bfef-49ec-a102-80be790d85eb")
+		)
+		(pin "5"
+			(uuid "48b2b274-1287-432b-b98d-fc84a08d245b")
+		)
+		(pin "6"
+			(uuid "6450295b-3989-4341-8d07-922fa6cae353")
+		)
+		(pin "10"
+			(uuid "f5ec5257-dbdb-4951-86f5-87362acf066d")
+		)
+		(pin "11"
+			(uuid "87af9e11-4c1a-40e5-a97c-3eb315414d10")
+		)
+		(pin "8"
+			(uuid "48b8d857-6fc7-4945-bf0a-b4e5a4f5f259")
+		)
+		(pin "14"
+			(uuid "3ca1b461-2436-4e88-b1f2-e35b54dab597")
+		)
+		(pin "7"
+			(uuid "ec1c29c4-1e15-4c84-84dc-95a1ea84da3e")
+		)
+		(pin "12"
+			(uuid "a94fa286-2315-46d7-8148-660d2a406532")
+		)
+		(pin "13"
+			(uuid "61d86f05-893a-419b-8e3d-7e0047ae92a3")
+		)
+		(instances
+			(project "ProgDC"
+				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
+					(reference "D22")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pico-altium-import:root_0_133LL1_*")
 		(at 88.9 199.39 0)
 		(unit 2)
@@ -44526,71 +44153,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 321.31 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db049c03-3863-432e-bb73-2a7cc01e6ec0")
-		(property "Reference" "#PWR06"
-			(at 321.31 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 321.31 186.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 321.31 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 321.31 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 321.31 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e458b5f8-8a2b-4ede-951e-c8526d208661")
-		)
-		(instances
-			(project "ProgDC"
-				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 148.59 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -44649,6 +44211,130 @@
 			(project ""
 				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
 					(reference "#GND0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_0_133LN1_*_3")
+		(lib_id "Pico-altium-import:root_0_133LN1_*")
+		(at 29.21 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcdb8de1-afae-4441-a8cd-0081accbc409")
+		(property "Reference" "D22"
+			(at 35.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133LN1"
+			(at 35.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 29.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt-Trigger INVERTERS"
+			(at 29.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1533ЛН1"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DESCRIPTION" "Hex Schmitt-Trigger INVERTERS"
+			(at 41.91 26.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "650285a0-feab-45d7-9420-a342dd3b5818")
+		)
+		(pin "3"
+			(uuid "abe94d23-e5cc-4949-98b3-9190db0f03cc")
+		)
+		(pin "2"
+			(uuid "4a0d7d22-64c1-4b00-89b1-2e79209674e0")
+		)
+		(pin "4"
+			(uuid "f4f16e35-6a93-472a-b538-cca70b5c245e")
+		)
+		(pin "9"
+			(uuid "7e3dd010-4b43-46f4-b092-376aff999b8e")
+		)
+		(pin "5"
+			(uuid "48b2b274-1287-432b-b98d-fc84a08d245a")
+		)
+		(pin "6"
+			(uuid "6450295b-3989-4341-8d07-922fa6cae352")
+		)
+		(pin "10"
+			(uuid "f5ec5257-dbdb-4951-86f5-87362acf066c")
+		)
+		(pin "11"
+			(uuid "87af9e11-4c1a-40e5-a97c-3eb315414d0f")
+		)
+		(pin "8"
+			(uuid "7b624e9d-3f46-4b60-8b46-f8a029f7e4c5")
+		)
+		(pin "14"
+			(uuid "3be28bd9-cca5-41a1-bc88-4e1551bfcf0e")
+		)
+		(pin "7"
+			(uuid "008b2859-7d09-4072-8f3f-1de5bad9960a")
+		)
+		(pin "12"
+			(uuid "a94fa286-2315-46d7-8148-660d2a406531")
+		)
+		(pin "13"
+			(uuid "61d86f05-893a-419b-8e3d-7e0047ae92a2")
+		)
+		(instances
+			(project "ProgDC"
+				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -45143,72 +44829,6 @@
 				(path "/b2979edc-ce67-411c-9185-ba5c17732b26"
 					(reference "D5")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 328.93 185.42 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9755ca0-5239-4aaa-a2ac-9e88762111c0")
-		(property "Reference" "#PWR07"
-			(at 328.93 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 328.676 189.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.93 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 328.93 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c312a47-94f7-4897-916b-3d8ab64bd3f7")
-		)
-		(instances
-			(project "ProgDC"
-				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
-					(reference "#PWR07")
-					(unit 1)
 				)
 			)
 		)
@@ -45868,131 +45488,6 @@
 			(project ""
 				(path "/b2979edc-ce67-411c-9185-ba5c17732b26"
 					(reference "D4")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "root_0_133LN1_*_3")
-		(lib_id "Pico-altium-import:root_0_133LN1_*")
-		(at 347.98 200.66 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5bc5692-558f-4cf9-b324-d10680848d31")
-		(property "Reference" "D22"
-			(at 354.33 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "133LN1"
-			(at 354.33 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 347.98 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Schmitt-Trigger INVERTERS"
-			(at 347.98 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1533ЛН1"
-			(at 354.33 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" "Hex Schmitt-Trigger INVERTERS"
-			(at 360.68 192.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27f2b78e-196e-4d1a-aa60-c74773c67f79")
-		)
-		(pin "3"
-			(uuid "abe94d23-e5cc-4949-98b3-9190db0f03cd")
-		)
-		(pin "2"
-			(uuid "59690f43-41bb-4393-8b8b-277ee2e969aa")
-		)
-		(pin "4"
-			(uuid "f4f16e35-6a93-472a-b538-cca70b5c245f")
-		)
-		(pin "9"
-			(uuid "c6a9c094-3edf-4419-8c34-c94daca8f518")
-		)
-		(pin "5"
-			(uuid "48b2b274-1287-432b-b98d-fc84a08d245b")
-		)
-		(pin "6"
-			(uuid "6450295b-3989-4341-8d07-922fa6cae353")
-		)
-		(pin "10"
-			(uuid "f5ec5257-dbdb-4951-86f5-87362acf066d")
-		)
-		(pin "11"
-			(uuid "87af9e11-4c1a-40e5-a97c-3eb315414d10")
-		)
-		(pin "8"
-			(uuid "0905d26d-71c6-42d5-8b85-339d98d5cb05")
-		)
-		(pin "14"
-			(uuid "75e46a2c-c6b3-4b76-aebb-4cfe9c981e31")
-		)
-		(pin "7"
-			(uuid "a4235a90-275b-40c5-93e7-f493106853b8")
-		)
-		(pin "12"
-			(uuid "a94fa286-2315-46d7-8148-660d2a406532")
-		)
-		(pin "13"
-			(uuid "61d86f05-893a-419b-8e3d-7e0047ae92a3")
-		)
-		(instances
-			(project "ProgDC"
-				(path "/1c1c0805-b5d6-4e37-a393-ae6b53285b27"
-					(reference "D22")
 					(unit 4)
 				)
 			)
